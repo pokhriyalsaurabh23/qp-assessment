@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // or a specific ES version like ES2020, ES2017, etc.
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true, // This must be true
+    "emitDecoratorMetadata": true, // This must be true
+    "outDir": "./dist",
+    "rootDir": "./src",
+  },
+  "include": ["src/**/*"]
+}
